@@ -16,11 +16,11 @@ a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+// portfolio
+@import "modules/_portfolio.scss";
+
 // header
 @import "modules/_header.scss";
-
-// body
-@import "modules/_body.scss";
 
 // content
 @import "modules/_content.scss";
