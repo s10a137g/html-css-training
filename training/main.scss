@@ -16,14 +16,17 @@ a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+// wrap-clearfix
+@import "modules/_wrap-clearfix.sccs";
+
 // portfolio
 @import "modules/_portfolio.scss";
 
 // header
 @import "modules/_header.scss";
 
-// content
-@import "modules/_content.scss";
+// main
+@import "modules/_main.scss";
 
 // sidebar
 @import "modules/_sidebar.scss";

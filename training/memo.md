@@ -30,23 +30,19 @@ webpackとは？？
 
 [Webpackってどんなもの？](https://qiita.com/kamykn/items/45fb4690ace32216ca25)
 
-## SCSS記法
+## 修正する時に気をつけたこと
 
-### ディレクトリ構成
-色々あるみたいだけれど以下参考。
+- ブロック単位
+  - portfolio
+  - wrap-clearfix
+  - header
+  - main
+  - sidebar
+  - footer
 
-[Webサイトのディレクトリ構造とその命名規則に悩む](https://qiita.com/y_hokkey/items/871c23c24d31021d7c40)
+- あとでエレメントごとにCSSがあてられるように、なるべく各要素にclass名をつけるようにした。
 
-```
- dest       -- コンパイル結果
- src        -- コンパイル前
-  index.html
-  assets    -- コンパイル後に残らないフォルダは、先頭に「_」を付ける
-    _coffee -- CoffeeScript
-    _sass   -- Sass
-      lib   -- Sassの共通ライブラリ
-    vendor  -- 外部ライブラリはここ。bower_componentの名前を変えて運用
-    js
-    css
-    img 
-```
+## 気になったこと
+
+- 良い設計がいまいちわからない。。。参考にしたほうがいい実際のサイトとかある？
+- 最初wrapクラスをmainクラスに統合してしまうと上手くいかなかった。(::after が上手く効かなかった)

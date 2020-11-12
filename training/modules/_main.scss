@@ -1,0 +1,21 @@
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+
+  &__title {
+    font-family: 'Bitter', serif;
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  &__subtitle {
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+  }
+  
+  &__section {
+    margin-bottom: 35px;
+  }
+  
+}  
