@@ -1,3 +1,5 @@
+$color-sidebar-link: #333333;
+
 .sidebar {
   width: 200px;
   margin: 0 10px 0 30px;
@@ -11,11 +13,12 @@
   &__nav {
     font-size: 16px;
     margin-left: 20px;
-    
-    > a {
-        color: #333333;
-      }
   }
+
+  &__link {
+    color: $color_sidebar_link; 
+  }
+
 }
 
 
